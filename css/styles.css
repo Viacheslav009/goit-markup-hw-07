@@ -81,9 +81,9 @@ studio-logo-header #000000
 
 /*----------------logo------------------*/
 .logo {
-  font-family: 'Raleway';
+   font-family: 'Raleway';
   font-style: normal;
-  font-weight: 700;
+  font-weight: 700; 
   font-size: 26px;
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
@@ -92,7 +92,7 @@ studio-logo-header #000000
 }
 
 .logo__item {
-  font-family: 'Raleway';
+   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -387,9 +387,7 @@ studio-logo-header #000000
   justify-content: center;
 }
 
-.peculiarities__logo{
-
-}
+/* .peculiarities__logo{ } */
 
 .peculiarities__title{
   font-weight: 700;
@@ -702,14 +700,14 @@ studio-logo-header #000000
 
 /* --------------------форма футера-------------------------- */
 
-.footer-form-items{
+.footer__item{
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 12px;
 }
 
-.footer-form-field{
+.footer__field{
   padding: 15px 16px;
 
   width: 358px;
@@ -728,11 +726,11 @@ studio-logo-header #000000
   color: #FFFFFF;
 }
 
-.footer-form-field:focus {
+.footer__field:focus {
   outline-color: var(--accent);
 }
 
-.footer-modal-form-label{
+.footer__label{
   display:inline-block ;
   font-weight: 700;
   font-size: 14px;
