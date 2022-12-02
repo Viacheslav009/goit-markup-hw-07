@@ -1,8 +1,8 @@
 .develop{
     display: flex;
     gap: 30px; 
-   }
-  .develop__work {
+  
+  &__work {
     padding-top: 27px;
     padding-bottom: 27px;
     font-weight: 700;
@@ -20,10 +20,10 @@
     left: 0px;
     margin: 0;
   }
-  .develop__thumb {
+  &__thumb {
     position: relative;
   }
-  
+}
   .section-develop{
     padding-bottom: 94px;
   }

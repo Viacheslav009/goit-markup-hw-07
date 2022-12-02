@@ -25,9 +25,11 @@
     position: absolute;
   }
   
-  .nav__link:hover,
-  .nav__link:focus {
+  .nav__link{
+    &:hover,
+    &:focus {
     color: var(--accent);
+  }
   }
   
   .nav__list .nav__link .curent {

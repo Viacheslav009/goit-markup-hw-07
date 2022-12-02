@@ -20,13 +20,16 @@
     cursor: pointer;
   
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .basic-button:hover,
-  .basic-button:focus {
+  
+  &:hover,
+  &:focus {
     color: var(--primary-text-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   
+          }
   }
+
+  
   .modal__basic-button{
     display: block;
     margin: 0 auto;
@@ -37,7 +40,7 @@
   }
   
   .basic-button--logo::after{
-    /* display: inline-block; */
+    
     content: '';
     width: 24px;
     height: 24px;

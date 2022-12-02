@@ -1,15 +1,4 @@
-.hero__title {
-    max-width: 696px;
-    align-items: center;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: calc(60 / 44);
-    margin: 0 auto;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: var(--white);
-  }
+
   .hero {
     text-align: center;
   
@@ -25,4 +14,18 @@
   
     max-width: 1600px;
     margin: 0 auto;
+  
+
+  &__title {
+    max-width: 696px;
+    align-items: center;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: calc(60 / 44);
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white);
   }
+}

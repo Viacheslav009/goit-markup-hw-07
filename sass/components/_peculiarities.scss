@@ -2,8 +2,8 @@
     display: flex;
     gap: 30px; 
     /* padding-top: 94px; */
-  }
-  .peculiarities__box{
+  
+  &__box{
     width: 270px;
     height: 120px;
     
@@ -16,7 +16,7 @@
     align-items: center;
     justify-content: center;
   }
-  .peculiarities__title{
+  &__title{
     font-weight: 700;
     font-size: 14px;
     line-height: calc(16 / 14);
@@ -27,10 +27,11 @@
     color: var(--primary-text-color);
   }
   
-  .peculiarities__subtitle{
+  &__subtitle{
     font-weight: 400;
     font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
   }
+}
